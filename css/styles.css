@@ -3,19 +3,56 @@ nav
     display: flex;
     justify-content: center;
     width: 100%;
-    gap: 60px;
+    gap: 70px;
     padding: 10px;
-    background-color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav a
 {
     text-decoration: none;
-    color: #cacaca;
+    color: #000000;
     font-weight: bold;
+    font-size: large;
 }
 
 nav a:hover
 {
-    color: #ffffff;
+    color: #8a8a8a;
 }
+
+.home
+{
+    text-align: center;
+    padding: 100px, 20px;
+}
+
+.home h1
+{
+    font-size: 2.5rem;
+}
+
+.home h3
+{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.home p
+{
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.home button
+{
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #eefff5;
+    color: #000000;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+
