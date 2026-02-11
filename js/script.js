@@ -1,7 +1,18 @@
-document.getElementById("projectsBtn").addEventListener("click", function(){
+const projectsBtn = document.getElementById("projectsBtn");
+
+projectsBtn.addEventListener("click", function() {
     window.location.href = "projects.html";
 });
 
-document.getElementById("homeBtn").addEventListener("click", function(){
+const contactBtn = document.getElementById("contactBtn");
+
+contactBtn.addEventListener("click", function() {
+    window.location.href = "contact.html";
+});
+
+const homeButton = document.getElementById("homeButton");
+
+homeButton.addEventListener("click", function() {
     window.location.href = "index.html";
 });
+
